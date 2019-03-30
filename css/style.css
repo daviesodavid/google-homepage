@@ -1,0 +1,312 @@
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+html,
+body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+
+#page-container{
+  position: relative;
+  min-height: 100%
+}
+
+
+/*Header Stuffs*/
+#header{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  font-size: small;
+}
+
+header a{
+  display: inline-block;
+  color: rgba( 0, 0, 0, 0.87);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: right;
+  display: block;
+  padding: 8px;
+}
+
+.apps-icon a{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("https://asuar.gitlab.io/google-homepage/images/apps1.png");
+  vertical-align: middle;
+
+}
+
+
+.user-img a{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url('../img/davo.png');
+  background-size: contain;
+}
+
+.user-img li{
+  padding: 0px 8px 0px 12px;
+}
+
+.master-header{
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.junior-header{
+  min-width: 200px;
+  float: right;
+  order: 1;
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+
+
+/*Body Stuffs*/
+#body{
+  text-align: -webkit-center;
+  padding-top: 206px;
+  padding-bottom: 60px;
+}
+
+
+.google_image{
+text-align: -webkit-center;
+padding-bottom: 20px;
+}
+
+.search-box{
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  width: 492px;
+  margin: 0 auto;
+}
+
+.search-box:hover {
+  box-shadow: 0 1px 6px 0 rgba(156, 156, 156, 0.88);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+
+.search-block{
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 20px;
+}
+
+form{
+  display: block;
+  margin-top; 0em;
+}
+
+.search-bar {
+  height: 30px;
+  width: 430px;
+  font-size: 15px;
+  background-color: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.voice-image{
+  display: inline;
+  margin-top: 7px;
+  cursor: pointer;
+  align-items: stretch;
+}
+
+.voice{
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+input, textarea, select {
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+}
+
+
+.button-position{
+  display: block;
+  text-align: -webkit-center;
+  padding-bottom: 20px;
+}
+
+.buttons {
+  height: 70px;
+  padding-top: 18px;
+  position: inherit;
+  top: 53px;
+  width: 487px;
+  z-index: 0;
+}
+
+.buttons input{
+  height: 36px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.buttons input:hover{
+  border: 1px solid #c5c5c5;
+  color: #000;
+  box-shadow: 0 1px 3px 0 rgba(156, 156, 156, 0.2);
+}
+
+
+
+/*Footer Stuffs*/
+
+#footer{
+  bottom: 0;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.ff{
+  margin: 0 auto;
+  min-width: 980px;
+}
+
+.master-footer{
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 980px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.master-footer a{
+  display: inline-block;
+  color: #5F6368;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+.fbar{
+  line-height: 40px;
+  font-size: small;
+  margin-left: -27px;
+}
+
+.country-box{
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.country{
+  margin-left: 30px;
+  text-align: left;
+  color: rgba(0,0,0,.54);
+  padding-left: 27px;
+  font-size: 15px
+}
+
+
+.footer-left{
+  margin-left: 30px;
+  white-space: nowrap;
+}
+
+.advertising{
+  padding-left: 27px;
+  margin: 0 !important;
+}
+
+.business{
+  padding-left: 27px;
+  margin: 0 !important;
+}
+
+.about{
+  padding-left: 27px;
+  margin: 0 !important;
+}
+
+.footer-right{
+  margin-right: 30px;
+  float: right;
+  white-space: nowrap;
+}
+
+.privacy{
+  padding-left: 27px;
+  margin: 0 !important;
+}
+
+.terms{
+  padding-left: 27px;
+  margin: 0 !important;
+}
+
+.settings{
+  padding-left: 27px;
+  margin: 0 !important;
+}
